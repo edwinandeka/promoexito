@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/image"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:id="@+id/share"
+                android:src="@drawable/share"
+                android:padding="4dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:gravity="left|center_vertical"
+                android:text="Ver articulo"
+                android:background="@drawable/boton"
+                android:textSize="10dp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/browser" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:gravity="left|center_vertical"
+                android:text="Ir a Comprar"
+                android:background="@drawable/boton"
+                android:textSize="10dp"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/button"
+                android:layout_marginLeft="8dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/star"
+        android:src="@drawable/estrella"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="18dp" />
+
+    <TextView
+        android:layout_width="38dp"
+        android:layout_height="36dp"
+        android:text="New Text"
+        android:id="@+id/txt_promo"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="32dp" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:weightSum="1"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txt_name"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#444444"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txt_brand"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txt_price"
+            android:textColor="#dc0b13"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/other"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txt_before"
+            android:textIsSelectable="true"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/tarjeta"
+            android:src="@drawable/tarjeta"
+            android:layout_gravity="right"
+            android:layout_marginTop="-24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/saving"
+            android:textColor="#139441"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+</FrameLayout>

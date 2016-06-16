@@ -1,0 +1,87 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+    <item
+        android:id="@+id/action_send"
+        android:orderInCategory="100"
+        android:title="filtrar"
+        android:icon="@drawable/ic_import_export_black_24dp"
+
+        app:showAsAction="always" >
+        <menu>
+
+
+            <item android:id="@+id/submenu_by_more_recent"
+                android:onClick="onGroupItemClick"
+                android:title="Más Reciente" />
+
+            <item android:id="@+id/submenu_by_saving_max"
+                android:onClick="onGroupItemClick"
+                android:title="Mayor ahorro" />
+
+            <item android:id="@+id/submenu_by_saving_min"
+                android:onClick="onGroupItemClick"
+                android:title="Menor ahorro" />
+
+            <item android:id="@+id/submenu_by_desc_min"
+                android:onClick="onGroupItemClick"
+                android:title="Mayor descuento" />
+
+            <item android:id="@+id/submenu_by_desc_max"
+                android:onClick="onGroupItemClick"
+                android:title="Menor descuento" />
+
+            <item android:id="@+id/submenu_by_price_min"
+                android:onClick="onGroupItemClick"
+                android:title="Menor precio" />
+
+            <item android:id="@+id/submenu_by_price_max"
+                android:onClick="onGroupItemClick"
+                android:title="Mayor Precio" />
+
+
+            <item android:id="@+id/submenu_a_z"
+                android:onClick="onGroupItemClick"
+                android:title="Alfabético A-Z" />
+
+            <item android:id="@+id/submenu_z_a"
+                android:onClick="onGroupItemClick"
+                android:title="Alfabético Z-A" />
+
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_search_black_24dp"  />
+
+    <item android:id="@+id/action_find_promo"
+        android:title="@string/action_find_promo"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_delete_promo"
+        android:title="@string/action_delete_promo"
+        android:icon="@drawable/ic_delete_forever_black_24dp"
+
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:icon="@drawable/ic_delete_forever_black_24dp"
+
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

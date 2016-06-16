@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\build\\intermediates\\res\\merged\\release\\menu\\my.xml",
+        "source": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\src\\main\\res\\menu\\my.xml"
+    },
+    {
+        "merged": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\build\\intermediates\\res\\merged\\release\\menu\\myold.xml",
+        "source": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\src\\main\\res\\menu\\myold.xml"
+    },
+    {
+        "merged": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\build\\intermediates\\res\\merged\\release\\menu\\main3.xml",
+        "source": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\src\\main\\res\\menu\\main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_main3_drawer.xml",
+        "source": "C:\\Users\\eka\\Downloads\\BannerExample\\app\\src\\main\\res\\menu\\activity_main3_drawer.xml"
+    }
+]
